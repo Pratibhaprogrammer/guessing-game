@@ -1,4 +1,6 @@
 'use strict'
+
+function myPage(){
 var score = 0
 var userName = prompt('what is your name?')
   alert('Greetings ' + userName + '!')
@@ -98,3 +100,4 @@ score++
 
 alert(' thanks for playing ' + userName  + ' you got ' + score + ' have a wonderful life')
  
+myPage();
